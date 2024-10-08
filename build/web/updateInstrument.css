@@ -1,0 +1,145 @@
+.uu{
+    background-image: linear-gradient(rgba(243, 235, 235, 0.1),#7bbaba),url(updateInstrument.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myBox{
+    width: 700px;
+    height: 390px;
+    top: 100px;
+    position: absolute;
+    right:40px;
+    top:80px;
+    margin: 20px;
+    background-color: #1d9086f6;
+    opacity: 0.5;
+    left: 300px;
+}
+.Patient2{
+    top: 20px;
+    left: 250px;
+    position: relative;
+    color: white;
+}
+.Patient3 label[name=label1]{
+    top: 42px;
+    left: 50px;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+.Patient3 input[name=Id]{
+    top: 110px;
+    left: 50px;
+    position: absolute;
+    height: 40px;
+    width: 170px;
+    color: rgb(255, 255, 255);
+}
+.Patient3 label[name=label2]{
+    top: 79px;
+    left: 470px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+.Patient3 input[name=type]{
+    top: 110px;
+    left: 470px;
+    position: absolute;
+    height: 40px;
+    width: 170px;
+    color: rgb(255, 255, 255);
+}
+.Patient3 label[name=label3]{
+    top: 79px;
+    left: 250px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+.Patient3 input[name=name]{
+    top: 110px;
+    left: 250px;
+    position: absolute;
+    height: 40px;
+    width: 170px;
+    color: rgb(255, 255, 255);
+}
+.Patient3 label[name=label4]{
+    top: 160px;
+    left: 50px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+.Patient3 input[name=Quantity]{
+    top: 190px;
+    left: 50px;
+    position: absolute;
+    height: 40px;
+    width: 270px;
+    color: rgb(255, 255, 255);
+}
+
+.Patient3 label[name=label5]{
+    top: 160px;
+    left: 370px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+.Patient3 input[name=Price]{
+    top: 190px;
+    left: 370px;
+    position: absolute;
+    height: 40px;
+    width: 270px;
+    color: rgb(255, 255, 255);
+}
+.start p{
+    font-size: 26px;
+    text-align: justify;
+    position: absolute;
+    top: 250px;
+    width: 500px;
+    color: white;
+    left: 130px;
+}
+.start1 a{
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    top: 279px;
+    background-color:#1111116c;
+    width: 200px;
+    color: white;
+    left: 230px;
+    padding-top: 12px;
+    height: 40px;
+}
+.final{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(49, 44, 44);
+    left: 430px;
+    top:530px;
+}
+.Patient3 input[type=submit]{
+	position: absolute;
+	top:280px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 20px;
+	border: none;
+	width:190px;
+	left:250px;
+}
+.Patient3 input[type=submit]:hover{
+	color: black;
+	background-color: #e3f081;
+}

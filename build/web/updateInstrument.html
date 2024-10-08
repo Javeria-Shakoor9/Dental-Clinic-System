@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Instruments</title>
+    <link rel="stylesheet" href="updateInstrument.css" type="text/css">
+    <link rel="stylesheet" href="Admin_Home.css">
+</head>
+
+<body class="uu">
+    <div class="first">
+        <div class="first2">
+            <nav>
+                    <div class="f0"><a href = "Admin_Home.html"><span></span>Home</a></div>
+                    <div class="f1"><a href="#"><span></span><div class="dropdown">Dentist
+                            <div class="dropdown-content">
+                                <a href="deleteDentist.html">Delete Dentist</a>
+                                <a href="updateDentist.html">Update Dentist</a>
+                                <a href="#">View Dentists</a>
+                            </div>
+                        </div></a></div>
+                    <div class="f2"><a href = "#"><span></span><div class="dropdown">Patients
+                            <div class="dropdown-content">
+                                <a href="deletePatient.html">Delete Patient</a>
+                                <a href="updatePatient.html">Update patient</a>
+                                <a href="#">View patient</a>
+                            </div>
+                        </div></a></div>
+                     <div class="f4"><a href = "#"><span></span><div class="dropdown">Supplier
+                            <div class="dropdown-content">
+                                <a href="deleteSupplier.html">Delete Supplier</a>
+                                <a href="updateSuplier.html">Update Supplier</a>
+                                <a href="#">View Supplier</a>
+                            </div>
+                        </div></a></div>
+                    <div class="f5"><a href = "#"><span></span><div class="dropdown">Medicine
+                            <div class="dropdown-content">
+                                <a href="deleteMedicines.html">Delete Stock</a>
+                                <a href="updateMedicines.html">Update Stock</a>
+                                <a href="#">View Stock</a>
+                            </div>
+                        </div></a></div>
+                    <div class="f6"><a href = "#"><span></span><div class="dropdown">Instrument
+                            <div class="dropdown-content">
+                                <a href="deleteInstruments.html">Delete Instrument</a>
+                                <a href="updateInstrument.html">Update Instrument</a>
+                                <a href="#">View Instrument</a>
+                            </div>
+                        </div></a></div>
+                </nav>
+        </div>
+    </div>
+    <div class="myBox">
+    <div class="Patient1">
+        <div class="Patient2">
+            <h1>Update Instruments</h1>
+        </div>
+        <div class="Patient3">      
+                <form action="#" method="post">
+                    <label name="label1">Instrument Id:</label>
+                    <label name="label2">Instrument type:</label>
+                    <label name="label3">Instrument name:</label>
+                    <label name="label4">Quantity:</label>
+                    <label name="label5">Price per unit:</label> 
+                    
+                    <input type="number" name="Id" placeholder="Enter Id here" required>
+                    <input type="text" name="type" placeholder="Enter type here" required>
+                    <input type="text" name="name" placeholder="Enter name here" required>
+                    <input type="text" name="Quantity" placeholder="Enter Quantity  here" required>
+                    <input type="number" name="Price" placeholder="Enter Price here" required>
+                    
+                    <input type="submit" value="Update Instrument">
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="final">
+            <p>Copyright 2019 JR Dental Clinic - All rights reserved</p>
+        </div>
+</body>
+
+</html>
