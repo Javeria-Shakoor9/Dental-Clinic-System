@@ -1,0 +1,321 @@
+.a1{
+    position: absolute;
+    top:50px;
+    background-image:linear-gradient(rgba(10,10,10,0.001),#1f2626),url(login.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:680px;
+    width:1329px;
+}
+.a1 h1{
+    font-size: 45px;
+    position: absolute;
+    top: 45px;
+    width: 400px;
+    color: white;
+    left: 530px;
+	font-size: 25px;
+}
+.appointment a{
+	position: absolute;
+	right: 100px;
+	top:100px;
+	background-color: white;
+	font-size: 20px;
+	color: black;
+	border-radius: 10px;
+	padding: 5px 5px;
+	text-decoration: none;
+}
+.transbox{
+    position: absolute;
+    right:100px;
+    height:500px;
+    width: 1100px;
+    top:160px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.2;
+}
+.display{
+    position: absolute;
+    right:170px;
+    height:400px;
+    width: 1000px;
+    top:230px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightskyblue;
+}
+.display1{
+    position: absolute;
+    right:25px;
+    height:350px;
+    width: 950px;
+    top:26px;
+}
+.display1 label[name=label1]{
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    top:22px;
+    color: white;
+}
+.display1 input[name=fname]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:19px;
+    left: 115px;
+}
+.display1 label[name=label2]{
+    position: absolute;
+    left: 300px;
+    font-size: 20px;
+    top:22px;
+    color: white;
+}
+.display1 input[name=mname]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:19px;
+    left: 435px;
+}
+.display1 label[name=label3]{
+    position: absolute;
+    left: 620px;
+    font-size: 20px;
+    top:22px;
+    color: white;
+}
+.display1 input[name=lname]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:19px;
+    left: 735px;
+}
+.display1 label[name=label1]{
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    top:22px;
+    color: white;
+}
+.display1 input[name=age]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:79px;
+    left: 115px;
+}
+.display1 label[name=label4]{
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    top:82px;
+    color: white;
+}
+.display1 label[name=label5]{
+    position: absolute;
+    left: 300px;
+    font-size: 20px;
+    top:82px;
+    color: white;
+}
+.display1 input[name=phno]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:82px;
+    left: 435px;
+}
+.display1 label[name=label6]{
+    position: absolute;
+    left: 620px;
+    font-size: 20px;
+    top:82px;
+    color: white;
+}
+.display1 input[name=email]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:82px;
+    left: 735px;
+}
+
+.display1 label[name=label7]{
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    top:143px;
+    color: white;
+}
+.display1 input[name=address]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:143px;
+    left: 115px;
+}
+.display1 input[type=submit]{
+    height:35px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top:22px;
+    left: 650px;
+}
+
+.display1 label[name=label8]{
+    position: absolute;
+    left: 620px;
+    font-size: 20px;
+    top:143px;
+    color: white;
+}
+
+.display1 input[type=date]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-family: sans-serif;
+    border: none;
+    top:143px;
+    left: 735px;
+}
+.display1 label[name=label9]{
+    position: absolute;
+    left: 300px;
+    font-size: 20px;
+    top:143px;
+    color: white;
+}
+.display1 select{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:143px;
+    left: 435px;
+}
+.display1 label[name=label10]{
+    position: absolute;
+    left: 120px;
+    font-size: 20px;
+    top:208px;
+    color: white;
+}
+.display1 input[name=Enter_Password]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border: none;
+    top:208px;
+    left: 275px;
+}
+
+.display1 label[name=label11]{
+    position: absolute;
+    left: 450px;
+    font-size: 20px;
+    top:208px;
+    color: white;
+}
+
+.display1 input[name=Confirm_Password]{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-family: sans-serif;
+    border: none;
+    top:208px;
+    left: 635px;
+}
+
+.display1 input[type=submit]{
+    height:35px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top:300px;
+    left: 370px;
+}
+.display1 input[type=submit]:hover{
+    color: white;
+    background-color: rgb(111, 237, 237);
+    border: none;
+}
