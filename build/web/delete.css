@@ -1,0 +1,105 @@
+.uu{
+    background-image: linear-gradient(rgba(63, 140, 141, 0.689),#6fd0e1a4),url(delPatent.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.u1{
+    background-image: linear-gradient(rgba(63, 140, 141, 0.189),#6fd0e1a4),url(delMedcne.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.u2{
+	background-image: linear-gradient(rgba(63, 140, 141, 0.189),#6fd0e1a4),url(delMedcne1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.y1{
+    background-image: radial-gradient(rgba(0, 0, 0,0.1),#65a8a8),url(delSuppler.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myBox{
+    width: 450px;
+    height: 400px;
+    top: 160px;
+    position: absolute;
+    right:40px;
+    top:80px;
+    margin: 20px;
+    background-color: #3b5252;
+    opacity: 0.7;
+    left: 410px;
+}
+.Patient2{
+    top: 20px;
+    left: 100px;
+    position: relative;
+    color: white;
+}
+.Patient3 label[name=label1]{
+    top: 150px;
+    left: 50px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+.Patient3 input[name=Id]{
+    top: 190px;
+    left: 50px;
+    position: absolute;
+    height: 40px;
+    width: 270px;
+    color: rgb(255, 255, 255);
+}
+.start p{
+    font-size: 26px;
+    text-align: justify;
+    position: absolute;
+    top: 250px;
+    width: 500px;
+    color: white;
+    left: 130px;
+}
+.start1 a{
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    top: 279px;
+    background-color:#1111116c;
+    width: 200px;
+    color: white;
+    left: 130px;
+    padding-top: 12px;
+    height: 40px;
+}
+.Patient3 input[type=submit]{
+	border:none;
+	font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 30px;
+    top: 279px;
+    background-color:white;
+    width: 200px;
+    color: black;
+    left: 130px;
+    padding-top: 0px;
+    height: 40px;
+}
+.final{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(49, 44, 44);
+    left: 430px;
+    top:600px;
+}
