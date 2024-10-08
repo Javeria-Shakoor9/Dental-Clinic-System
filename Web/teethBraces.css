@@ -1,0 +1,319 @@
+.dent{
+    background-image: url(bg1.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgb(11, 11, 11));
+}
+.u1{
+    top: 70px;
+    text-shadow: 50px;
+    position: absolute;
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: dotted;
+    left: 0px;
+    text-align: center;
+}
+.planto{
+    
+    text-shadow: 50px;
+    position: absolute;
+    font-size: 20px;
+    top: 250px;
+    text-decoration: dotted;
+    left: 150px;
+    right: 100px; 
+    /* text-align: center; */
+}
+.beforeAfter{
+    position: absolute;
+    width: 50px ;
+    height: 10;
+    padding: 100px;
+    margin: 100px;
+    top: 250px;
+    left: 400px;
+    background-image: url(tw.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.plant{
+    
+    text-shadow: 50px;
+    position: absolute;
+    font-size: 20px;
+    top: 550px;
+    text-decoration: dotted;
+    left: 150px;
+    right: 100px; 
+}
+.ds{
+    background-image: url(w1.png);
+    position: absolute;
+    padding: 100px;
+    margin: 50px;
+    height: 500px;
+    width: 1020px;
+    top: 700px;
+    /* left: 0px; */
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.ds1{
+    border: 1px solid black;
+    background-image: url(w1.png);
+    position: absolute;
+    padding: 100px;
+    margin: 50px;
+    height: 70px;
+    width: 150px;
+    top: 50px;
+    left: 150px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.d1{
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 50px ;
+    height: 10;
+    padding: 60px;
+    margin: 50px;
+    top: 0px;
+    left: 0px;
+    bottom: 500px;
+    /* border-radius: 10px; */
+    background-image: url(Mithat\ Terzi\ braces\ 13y.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.wrts1{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    /* left: 15px; */
+    color: green;
+}
+.wrtss1{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 10px;
+
+}
+.ds2{
+    border: 1px solid black;
+    background-image: url(w1.png);
+    position: absolute;
+    padding: 100px;
+    margin: 50px;
+    height: 70px;
+    width: 150px;
+    top: 50px;
+    left: 600px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.d2{
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 20px ;
+    height: 30;
+    padding: 60px;
+    margin: 50px;
+    top: 0px;
+    left: 0px;
+    bottom: 500px;
+    /* border-radius: 10px; */
+    background-image: url(Esra\ Sabanci\ braces\ 2y.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.wrts2{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    left: 15px;
+    color: green;
+}
+.wrtss2{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 10px;
+
+}
+.ds3{
+    border: 1px solid black;
+    background-image: url(w1.png);
+    position: absolute;
+    padding: 100px;
+    margin: 50px;
+    height: 70px;
+    width: 150px;
+    top: 350px;
+    left: 150px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.d3{
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 20px ;
+    height: 30;
+    padding: 60px;
+    margin: 50px;
+    top: 0px;
+    left: 0px;
+    bottom: 500px;
+    /* border-radius: 10px; */
+    background-image: url(Gizem\ Kocaman\ barces\ 7y\ .jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.wrts3{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    /* left: 15px; */
+    color: green;
+}
+.wrtss3{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 10px;
+
+}
+.ds4{
+    border: 1px solid black;
+    background-image: url(w1.png);
+    position: absolute;
+    padding: 100px;
+    margin: 50px;
+    height: 70px;
+    width: 150px;
+    top: 350px;
+    left: 600px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.d4{
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 20px ;
+    height: 30;
+    padding: 60px;
+    margin: 50px;
+    top: 0px;
+    left: 0px;
+    bottom: 500px;
+    /* border-radius: 10px; */
+    background-image: url(Melike\ Kasap\ tooth\ pain\ 8y\ .jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.wrts4{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    left: 15px;
+    color: green;
+}
+.wrtss4{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 10px;
+
+}
+.dsp1{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 110px;
+    border-radius: 10px;
+    height: 27px;
+    width: 100px;
+    padding-top: 8px;
+    background-color: rgb(85, 221, 228);
+}
+.dsp1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.dsp1 a:hover{
+    color: black;
+}
+.dsp2{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 110px;
+    border-radius: 10px;
+    height: 27px;
+    width: 100px;
+    padding-top: 8px;
+    background-color: rgb(85, 221, 228);
+}
+.dsp2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.dsp2 a:hover{
+    color: black;
+}
+.dsp3{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 110px;
+    border-radius: 10px;
+    height: 27px;
+    width: 100px;
+    padding-top: 8px;
+    background-color: rgb(85, 221, 228);
+}
+.dsp3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.dsp3 a:hover{
+    color: black;
+}
+.dsp4{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 110px;
+    border-radius: 10px;
+    height: 27px;
+    width: 100px;
+    padding-top: 8px;
+    background-color: rgb(85, 221, 228);
+}
+.dsp4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.dsp4 a:hover{
+    color: black;
+}

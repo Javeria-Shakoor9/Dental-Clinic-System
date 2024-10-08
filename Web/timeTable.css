@@ -1,0 +1,83 @@
+.doctor{
+    background-image: url(sel4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgb(126, 198, 210));
+}
+.doc1{
+    text-align: center;
+}
+.dc{
+
+    text-align: center;
+    top: 200px;
+}
+.dcs{
+    font-size: 20px;
+    font-weight: bold;
+}
+.dcs label[name=monn] {
+    font-size: 20px;
+    position: absolute;
+    top: 279px;
+    left: 550px;
+    
+}
+.dcs input[name=timem]{
+    position: absolute;
+    top: 279px;
+}
+.dcs label[name=tues]{
+    position: absolute;
+    top: 320px;
+    left: 550px;   
+}
+.dcs input[name=tues]{
+    position: absolute;
+    top: 330px;
+    left: 570px;
+}
+.dcs label[name=tues1]{
+    position: absolute;
+    top: 350px;
+    left: 550px;   
+}
+.dcs input[name=timet]{
+    position: absolute;
+    top: 350px;
+}
+.dcs input[value=day1]{
+    position: absolute;
+    top: 320px;
+    left: 530px;
+}
+.dcs p{
+    position: absolute;
+    top: 370px;
+    left: 560px;
+}
+.sub{
+    font-size: 20px;
+    border-radius: 75px;
+    background-color: rgba(85, 97, 98, 0.499);
+    position: absolute;
+    top:430px;
+    height: 50px;
+    width:200px;
+    left: 600px;
+    color: white;
+}
+.sub a{
+    position: relative;
+    height: 70px;
+    width:130px;
+    left: 0px;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    /* color: #353a37; */
+}

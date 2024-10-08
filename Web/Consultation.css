@@ -1,0 +1,117 @@
+.start{
+    position: absolute;
+    top:50px;
+    background-image:linear-gradient(rgba(10,10,10,0.001),#1f2626),url(consultation.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:580px;
+    width:1329px;
+}
+.start h1{
+    font-size: 45px;
+    position: absolute;
+    top: 100px;
+    width: 400px;
+    color: white;
+    left: 130px;
+}
+.start p{
+    font-size: 26px;
+    text-align: justify;
+    position: absolute;
+    top: 250px;
+    width: 500px;
+    color: white;
+    left: 130px;
+}
+.start1 a{
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    top: 480px;
+    background-color:#4bebeb;
+    width: 200px;
+    color: white;
+    left: 220px;
+    padding-top: 12px;
+    height: 40px;
+}
+.start1 a:hover{
+    color: black;
+    background-color: white;
+}
+.transbox{
+    position: absolute;
+    right:40px;
+    height:500px;
+    width: 450px;
+    top:80px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.3;
+}
+.fm{
+    position: absolute;
+    right:60px;
+    height:500px;
+    width: 450px;
+    top:100px;
+}
+.fm h1{
+    color: white;
+    position: absolute;
+    font-family: serif;
+    top:15px;
+    left: 100px;
+}
+.fm1 input{
+    top:90px;
+    left: 70px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    padding-left: 10px;
+    border: 0px;
+}
+.in2{
+    position: absolute;
+    top:75px;
+}
+.in3{
+    position: absolute;
+    top:150px;
+}
+.in4{
+    position: absolute;
+    top:225px;
+}
+.fm input[type=submit]{
+    background-color: #4bebeb;
+    color: white;
+    font-size: 20px;
+    padding-left: 0px;
+    border-radius: 30px;
+    position: absolute;
+    top:390px;
+    left: 170px;
+    width: 100px;
+}
+.fm p{
+    position: absolute;
+    top:460px;
+    left: 130px;
+    font-size: 20px;
+}
+.final{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 350px;
+    top:590px;
+}

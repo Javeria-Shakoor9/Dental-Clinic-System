@@ -1,0 +1,446 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    background-attachment: fixed;
+    height: 50px;
+    width: 100px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 1329px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    font-size: 20px;
+    display: none;
+    background-color: #faf7de;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding-top: 5px;
+    padding-left:20px;
+    width: 200px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+.first2{
+    font-family: serif;
+    font-size: 23px;
+    font-style: bold;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.first2 a{
+    color: black;
+    text-decoration: none;
+}
+.first2 a span{
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+    top: 0; 
+    left:0;
+    transition:0.5s;
+    transition-delay:0.1s ;
+    padding-left: 100px;
+}
+.first2 a:hover span{
+    width:0px;
+}
+.first2 a:hover{
+   color: rgb(111, 237, 237);
+}
+.f1{
+    position: absolute;
+    right:310px;
+}
+.f2{
+    position: absolute;
+    right:210px;
+}
+.f3 input[type=submit]{
+    position: absolute;
+	font-size: 23px;
+    right:105px;
+	border: none;
+	background-color: white;
+    width:90px;
+	font-family: serif;
+}
+.f3 input[type=submit]:hover{
+	background-color: white;
+	color: rgb(111, 237, 237);
+}
+.f4{
+    position: absolute;
+    right:4px;
+    width: 90px;
+}
+.seconds{
+    top:50px;
+    position:absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height:500px;
+    width: 1329px;
+}
+.seconds h1{
+    position: absolute;
+    top: 400px;
+    left:460px;
+    font-size: 60px;
+    color: white;
+}
+.seconds1{
+    background-image: url(logo.jfif);
+    height:60px;
+    background-position: center;
+    background-size: cover;
+    top:100px;
+    position: absolute;
+    width: 60px;
+    left: 20px;
+}
+.seconds1 h1{
+    position: absolute;
+    top:8px;
+    left: 80px;
+    width: 300px;
+    font-size: 40px;
+    color: white;
+}
+.thirds{
+    position: absolute;
+    top:555px;
+    width:1329px;
+    height:3720px;
+}
+.i1{
+    top:100px;
+    left: 80px;
+    background-size: cover;
+    position: absolute;
+}
+.t1 h1{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    top:100px;
+    left: 650px;
+    color: #1dd1f5;
+}
+.t1 p{
+    width: 580px;
+    text-align: justify;
+    position: absolute;
+    top:160px;
+    font-size: 20px;
+    left: 650px;
+}
+.b1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top:440px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 200px;
+    left:840px;
+    background-color: #4da2e3;
+}
+.b1 a:hover{
+    background-color: #76d8e3;
+    color:white;
+}
+.i2{
+    top:650px;
+    right: 80px;
+    background-size: cover;
+    position: absolute;
+}
+.t2 h1{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    top:650px;
+    left:80px;
+    color: #1dd1f5;
+}
+.t2 p{
+    width: 580px;
+    text-align: justify;
+    position: absolute;
+    top:710px;
+    font-size: 20px;
+    left: 80px;
+}
+.b2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top:960px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 200px;
+    left:280px;
+    background-color: #4da2e3;
+}
+.b2 a:hover{
+    background-color: #76d8e3;
+    color:white;
+}
+.i3{
+    top:1200px;
+    left: 80px;
+    background-size: cover;
+    position: absolute;
+}
+.t3 h1{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    top:1200px;
+    left: 650px;
+    color: #1dd1f5;
+}
+.t3 p{
+    width: 580px;
+    text-align: justify;
+    position: absolute;
+    top:1260px;
+    font-size: 20px;
+    left: 650px;
+}
+.b3 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top:1540px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 200px;
+    left:840px;
+    background-color: #4da2e3;
+}
+.b3 a:hover{
+    background-color: #76d8e3;
+    color:white;
+}
+.i4{
+    top:1750px;
+    right: 80px;
+    background-size: cover;
+    position: absolute;
+}
+.t4 h1{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    top:1750px;
+    left:80px;
+    color: #1dd1f5;
+}
+.t4 p{
+    width: 580px;
+    text-align: justify;
+    position: absolute;
+    top:1810px;
+    font-size: 20px;
+    left: 80px;
+}
+.b4 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top:2040px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 200px;
+    left:280px;
+    background-color: #4da2e3;
+}
+.b4 a:hover{
+    background-color: #76d8e3;
+    color:white;
+}
+.i5{
+    top:2300px;
+    left: 80px;
+    background-size: cover;
+    position: absolute;
+}
+.t5 h1{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    top:2300px;
+    left: 650px;
+    color: #1dd1f5;
+}
+.t5 p{
+    width: 580px;
+    text-align: justify;
+    position: absolute;
+    top:2360px;
+    font-size: 20px;
+    left: 650px;
+}
+.b5 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top:2625px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 200px;
+    left:840px;
+    background-color: #4da2e3;
+}
+.b5 a:hover{
+    background-color: #76d8e3;
+    color:white;
+}
+.i6{
+    top:2850px;
+    right: 80px;
+    background-size: cover;
+    position: absolute;
+}
+.t6 h1{
+    font-size: 40px;
+    font-family: serif;
+    position: absolute;
+    top:2850px;
+    left:80px;
+    color: #1dd1f5;
+}
+.t6 p{
+    width: 580px;
+    text-align: justify;
+    position: absolute;
+    top:2910px;
+    font-size: 20px;
+    left: 80px;
+}
+.b6 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top:3190px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 200px;
+    left:280px;
+    background-color: #4da2e3;
+}
+.b6 a:hover{
+    background-color: #76d8e3;
+    color:white;
+}
+.end{
+    position: absolute;
+    width: 1329px;
+    top:3300px;
+    height:377px;
+    background-color: #9ff5f1;
+}
+.end h1{
+    color: white;
+    position: absolute;
+    font-size: 45px;
+    top: 40px;
+    left: 300px;
+}
+.mapping{
+    position: absolute;
+    top: 40px;
+    right:50px;
+}
+.phno{
+    font-size: 20px;
+    position: absolute;
+    top:150px;
+    left:170px;
+}
+.calling{
+    position: absolute;
+    top:145px;
+    left: 110px;
+}
+.Address{
+    position: absolute;
+    top:195px;
+    left: 110px;
+}
+.Address1{
+    font-size: 20px;
+    position: absolute;
+    width:230px;
+    top:194px;
+    left: 170px;
+}
+.Gmail{
+    position: absolute;
+    top:250px;
+    left: 110px;
+}
+.Gmail1{
+    font-size: 20px;
+    position: absolute;
+    width:230px;
+    top:250px;
+    left: 170px;
+}
+.Insta{
+    position: absolute;
+    top:300px;
+    left: 250px;
+}
+.Youtube{
+    position: absolute;
+    top:295px;
+    left: 320px;
+}
+.Twitter{
+    position: absolute;
+    top:295px;
+    left: 390px;
+}
+.Fb{
+    position: absolute;
+    top:295px;
+    left: 440px;
+}
+.Copyright{
+    position: absolute;
+    top:385px;
+    left: 400px;
+    font-size: 20px;
+    width: 800px;
+}

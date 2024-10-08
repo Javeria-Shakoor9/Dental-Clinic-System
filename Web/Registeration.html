@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="Service.css" type = "text/css" >
+        <link rel="stylesheet" href="Registeration.css" type = "text/css" >
+    </head>
+    <body>
+       <div class="first">
+             <div class="first2">
+                 <nav>
+                    <div class="f1"><a href = "Home.html"><span></span>Home</a></div>
+                    <div class="f2"><a href = "#"><span></span><div class="dropdown">Services
+                            <div class="dropdown-content">
+                                <a href="General%20Dentistry.html">General Dentistry</a>
+                                <a href="Cosmetic%20Dentistry.html">Cosmetic Dentistry</a>
+                                <a href="Braces_Orthodontist.html">Braces - Orthodontist</a>
+                                <a href="Dental%20Veneers.html">Dental Veneers</a>
+                                <a href="Dental%20Implants.html">Dental Implants</a>
+                            </div>
+                        </div></a></div>
+                    <form class="f3" action="ScheduleServ" method="get"><input type="submit" value="Schedule"></form>
+                    <div class="f4"><a href = "index.html"><span></span>Login</a></div>
+                </nav>
+             </div>
+         </div>
+        <div class="a1">
+            <h1>Register Here!</h1>
+        </div>
+		<div class="appointment"><a href="appointment.html">Make Appointment</a> </div>
+        <div class="transbox"></div>
+        <div class="display">
+            <div class="display1">
+                <form action="regServ" method="get">
+                    <label name="label1">First Name:</label>
+                    <label name="label2">Middle Name:</label>
+                    <label name="label3">Last Name:</label>
+                    <label name="label4">Age:</label>
+                    <label name="label5">Phone No:</label>
+                    <label name="label6">Email:</label>
+                    <label name="label7">Address:</label>
+                    <label name="label8">DOB:</label>
+                    <label name="label9">Gender:</label>
+                    <label name="label10">Enter Password:</label>
+                    <label name="label11">Confirm Password:</label>
+                    <input type="text" name="fname" placeholder="Enter first name here" required>
+                    <input type="text" name="mname" placeholder="Enter middle name here">
+                    <input type="text" name="lname" placeholder="Enter last name here" required>
+                    <input type="number" name="age" placeholder="Enter age here" required>
+                    <input type="number" name="phno" placeholder="Enter Phone No. here" min="99999999999" max="999999999999" required>
+                    <input type="email" name="email" placeholder="Enter email here" required>
+                    <input type="text" name="address" placeholder="Enter address here" required>
+                    <input type="date" name="DOB" placeholder="Enter DOB here" min="1900-01-02" required>
+                    <input type="password" name="Enter_Password" placeholder="Enter Password here" required>
+                    <input type="password" name="Confirm_Password" placeholder="Confirm Password" required>
+                    <select name="Gender">
+                        <option value="selection">Select Gender</option>
+                        <option value="Male" name="male">Male</option>
+                        <option value="Female" name="female">Female</option>
+                    </select>
+                    <input type="submit" value ="Submit" name="Submit">
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
